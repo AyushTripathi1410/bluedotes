@@ -4,8 +4,8 @@ import { ArrowRight, Leaf, Target, Eye, Heart, Award } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const team = [
-  { name: 'Sandeep Shukla', role: 'Founder & CEO', bio: 'Environmental engineer with 15+ years in waste management and circular economy consulting.', initials: 'SS', color: 'from-blue-500 to-cyan-500' },
-  { name: 'Pankaj Shukla', role: 'Founder & COO', bio: 'Logistics and supply chain expert specializing in waste collection network design and optimization.', initials: 'PS', color: 'from-purple-500 to-indigo-500' },
+  { name: 'Sandeep Shukla', role: 'Founder & CEO', bio: 'Environmental engineer with 15+ years in waste management and circular economy consulting. Logistics and Supply Chain Expert specializing in waste collection network design, reverse logistics, and resource recovery systems. Experienced in developing and optimizing collection, aggregation, and transportation networks for Plastic Waste, E-Waste, Battery Waste, Used Oil, and Waste Tyres. Possesses deep expertise in Extended Producer Responsibility (EPR) implementation, regulatory compliance, and building efficient circular economy solutions that enhance operational efficiency and environmental sustainability. ', initials: 'SS', color: 'from-blue-500 to-cyan-500' },
+  { name: 'Pankaj Shukla', role: 'Founder & COO', bio: 'Seasoned Logistics and Supply Chain Professional specializing in waste management infrastructure, collection network design, and circular economy solutions. Expertise spans Extended Producer Responsibility (EPR) strategy, compliance management, and end-to-end reverse logistics for Plastic Waste, E-Waste, Battery Waste, Used Oil, and Waste Tyres. Skilled in establishing nationwide collection and recycling networks, regulatory compliance, stakeholder engagement, and sustainable resource recovery initiatives aligned with CPCB and environmental regulations.', initials: 'PS', color: 'from-purple-500 to-indigo-500' },
 ];
 
 const values = [
