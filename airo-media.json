@@ -1,0 +1,386 @@
+{
+  "pages/home/hero": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=1920&h=1080&fit=crop",
+    "searchQuery": "sustainable environment green technology earth aerial view",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?w=1920&h=1080&fit=crop",
+      "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1920&h=1080&fit=crop",
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1920&h=1080&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T08:38:51.745Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 1920,
+      "height": 1080,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "compositions": "wide_shot",
+    "moods": "cool,natural"
+  },
+  "pages/about/team": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop",
+    "searchQuery": "diverse professional team sustainability consulting office",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&h=600&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T08:38:52.409Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 800,
+      "height": 600,
+      "fit": "cover"
+    },
+    "orientations": "horizontal"
+  },
+  "pages/home/stats-section": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&h=500&fit=crop",
+    "searchQuery": "solar panels renewable energy field aerial India",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=1200&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=1200&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&h=500&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T09:09:39.776Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 1200,
+      "height": 500,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "moods": "natural,cool"
+  },
+  "services/epr-compliance": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=600&h=400&fit=crop",
+    "searchQuery": "plastic waste recycling sorting facility workers",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1604187351574-c75ca79f5807?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?w=600&h=400&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T09:09:56.943Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "horizontal"
+  },
+  "services/waste-audit": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop",
+    "searchQuery": "environmental consultant waste audit inspection clipboard",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&h=400&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T09:10:08.961Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "horizontal"
+  },
+  "services/industrial-waste": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1565008576549-57569a49371d?w=600&h=400&fit=crop",
+    "searchQuery": "industrial waste management factory sustainability",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T09:10:21.273Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "horizontal"
+  },
+  "services/biomining": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600&h=400&fit=crop",
+    "searchQuery": "landfill biomining excavation reclamation green land",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1416169607655-0c2b3ce2e1cc?w=600&h=400&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T09:10:38.861Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "horizontal"
+  },
+  "services/plastic-recycling": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600&h=400&fit=crop",
+    "searchQuery": "plastic bottles recycling collection sorting colorful",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1591461090041-2a9e03bf7dba?w=600&h=400&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T09:10:50.524Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "horizontal"
+  },
+  "services/esg-consulting": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop",
+    "searchQuery": "ESG sustainability consulting business meeting green office",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&h=400&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T09:11:02.753Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "horizontal"
+  },
+  "services/iec-campaigns": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600&h=400&fit=crop",
+    "searchQuery": "community awareness campaign waste segregation education India",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=600&h=400&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T09:11:21.274Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "horizontal"
+  },
+  "services/collector-centre": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1593113646773-028c64a8f1b8?w=600&h=400&fit=crop",
+    "searchQuery": "waste collector informal recycler training center India",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T09:11:37.840Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "horizontal"
+  },
+  "pages/about/mission": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&h=500&fit=crop",
+    "searchQuery": "green earth sustainability nature aerial view India",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1476231682828-37e571bc172f?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?w=800&h=500&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T09:11:51.228Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 800,
+      "height": 500,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "moods": "natural"
+  },
+  "pages/process/hero": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=800&h=500&fit=crop",
+    "searchQuery": "environmental project planning strategy team whiteboard",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1552581234-26160f608093?w=800&h=500&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T09:12:09.821Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 800,
+      "height": 500,
+      "fit": "cover"
+    },
+    "orientations": "horizontal"
+  },
+  "pages/home/why-us": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=700&h=500&fit=crop",
+    "searchQuery": "clean green city sustainable urban environment India",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=700&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=700&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=700&h=500&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T09:12:26.018Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 700,
+      "height": 500,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "moods": "natural,cool"
+  },
+  "blog/epr-regulations-guide": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1604187351574-c75ca79f5807?w=800&h=500&fit=crop",
+    "searchQuery": "plastic waste EPR compliance recycling India regulations",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&h=500&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T09:35:55.555Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 800,
+      "height": 500,
+      "fit": "cover"
+    },
+    "orientations": "horizontal"
+  },
+  "blog/esg-reporting-india": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+    "searchQuery": "ESG sustainability business reporting data analytics green office",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=600&h=400&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T09:35:57.229Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "horizontal"
+  },
+  "blog/biomining-landfills": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&h=400&fit=crop",
+    "searchQuery": "landfill excavation biomining land reclamation aerial",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1416169607655-0c2b3ce2e1cc?w=600&h=400&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T09:35:58.044Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "horizontal"
+  },
+  "blog/waste-audit-costs": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop",
+    "searchQuery": "waste audit inspection industrial facility cost savings",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&h=400&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T09:35:59.373Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "horizontal"
+  },
+  "blog/iec-campaigns": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600&h=400&fit=crop",
+    "searchQuery": "community awareness campaign waste segregation education people",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=600&h=400&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T09:36:00.147Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "horizontal"
+  },
+  "blog/informal-collectors": {
+    "mediaType": "image",
+    "currentUrl": "https://images.unsplash.com/photo-1593113646773-028c64a8f1b8?w=600&h=400&fit=crop",
+    "searchQuery": "informal waste collectors recyclers India circular economy workers",
+    "alternatives": [
+      "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop"
+    ],
+    "userModified": false,
+    "createdAt": "2026-04-08T09:36:01.415Z",
+    "lastUpdated": "2026-06-17T00:00:00.000Z",
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "horizontal"
+  }
+}
