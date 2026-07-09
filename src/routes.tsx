@@ -25,3 +25,6 @@ export const routes: RouteObject[] = [
     ],
   },
 ];
+
+export type Path = string;
+export type Params = Record<string, string | undefined>;

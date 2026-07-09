@@ -28,7 +28,7 @@ export default async function handler(req: Request, res: Response) {
 
     await transporter.sendMail({
       from: `"BlueDots Website" <${process.env.SMTP_USER}>`,
-      to: process.env.SMTP_USER,
+      to: 'contact@bluedotes.com',
       replyTo: email,
       subject: `New Enquiry from ${name} — ${service || 'General'}`,
       html: `

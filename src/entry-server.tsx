@@ -80,6 +80,7 @@ export async function render(url: string): Promise<RenderResult> {
 
   const html = renderToString(
     <StrictMode>
+      {/* @ts-expect-error - HelmetProvider context type collision in React 19 */}
       <HelmetProvider context={helmetContext}>
         <QueryClientProvider client={queryClient}>
           <StaticRouterProvider router={router} context={context} />
