@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
-import { motion } from 'motion/react';
-import { ArrowRight, Leaf, Clock, Tag } from 'lucide-react';
+import { useState } from 'react';
+import { motion, AnimatePresence } from 'motion/react';
+import { ArrowRight, Leaf, Clock, Tag, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const posts = [
@@ -14,7 +14,27 @@ const posts = [
     color: 'from-blue-500 to-cyan-500',
     icon: '♻️',
     image: 'https://media.gettyimages.com/id/2245574298/photo/outdoor-recycling-facility-showing-large-compressed-waste-bales-stacked.jpg?b=1&s=2048x2048&w=0&k=20&c=rybPpRYmInApCr_fb7JqW5RYe1qhd6f6a2dS1YmfQR8=',
-
+    content: (
+      <div className="space-y-6">
+        <p className="text-muted-foreground leading-relaxed">
+          Extended Producer Responsibility (EPR) is a policy approach under which producers are given a significant responsibility—financial and/or physical—for the treatment or disposal of post-consumer products. In India, the Ministry of Environment, Forest and Climate Change introduced the EPR Guidelines for Plastic Waste Management in 2022 to establish a structured circular economy framework.
+        </p>
+        <h3 className="text-lg font-bold text-primary">Key Categories of Plastic Waste</h3>
+        <p className="text-muted-foreground leading-relaxed">
+          The guidelines categorize plastic packaging into four distinct classes:
+        </p>
+        <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+          <li><strong>Category 1:</strong> Rigid plastic packaging (containers, bottles, etc.)</li>
+          <li><strong>Category 2:</strong> Flexible plastic packaging of single layer or multilayer (bags, wraps, pouches)</li>
+          <li><strong>Category 3:</strong> Multilayered plastic packaging (at least one layer of plastic and other materials)</li>
+          <li><strong>Category 4:</strong> Plastic sheets or like used for packaging as well as carry bags made of compostable plastics</li>
+        </ul>
+        <h3 className="text-lg font-bold text-primary">EPR Targets and Obligations</h3>
+        <p className="text-muted-foreground leading-relaxed">
+          Producers, Importers, and Brand Owners (PIBOs) must register on the centralized EPR portal managed by the Central Pollution Control Board (CPCB). Registration is mandatory to operate. Once registered, entities are allocated targets based on the volume of plastics they introduce to the market. Meeting these targets involves purchasing EPR certificates from registered plastic waste processors.
+        </p>
+      </div>
+    )
   },
   {
     id: 2,
@@ -26,6 +46,23 @@ const posts = [
     color: 'from-cyan-500 to-blue-600',
     icon: '📊',
     image: 'https://media.gettyimages.com/id/2226156127/photo/esg-environment-social-and-governance-concept-investing-in-sustainable-and-ethical.jpg?b=1&s=2048x2048&w=0&k=20&c=lTmNWzVD600rkUzGhLidrOuY3Y9B4x07n69nc18AdlU=',
+    content: (
+      <div className="space-y-6">
+        <p className="text-muted-foreground leading-relaxed">
+          Environmental, Social, and Governance (ESG) criteria are increasingly used by investors to evaluate companies. In India, the Securities and Exchange Board of India (SEBI) has mandated the Business Responsibility and Sustainability Report (BRSR) for the top 1,000 listed companies by market capitalization.
+        </p>
+        <h3 className="text-lg font-bold text-primary">Why ESG Matters Beyond Audits</h3>
+        <p className="text-muted-foreground leading-relaxed">
+          While compliance is the primary driver, companies adopting strong ESG frameworks see tangible business benefits, including reduced capital costs, improved brand reputation, and better risk management. Investors are actively allocating capital to sustainable enterprises, making ESG a powerful competitive advantage.
+        </p>
+        <h3 className="text-lg font-bold text-primary">Steps to Implement a Robust ESG Framework</h3>
+        <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+          <li><strong>Materiality Assessment:</strong> Identify key environmental and social risks relevant to your industry.</li>
+          <li><strong>Data Collection:</strong> Set up reliable systems to track carbon emissions, waste generation, and labor practices.</li>
+          <li><strong>Target Setting:</strong> Define clear milestones for emission reductions, diversity goals, and community impact.</li>
+        </ul>
+      </div>
+    )
   },
   {
     id: 3,
@@ -37,6 +74,23 @@ const posts = [
     color: 'from-teal-500 to-green-600',
     icon: '⛏️',
     image: 'https://media.gettyimages.com/id/2215988256/photo/overhead-drone-view-of-landfill-in-novato-marin-county-california-on-a-sunny-day.jpg?b=1&s=2048x2048&w=0&k=20&c=35TzzwSIXHIJiZb5JHI3oVBFVRJj0ptK8xp3L1PP2pQ=',
+    content: (
+      <div className="space-y-6">
+        <p className="text-muted-foreground leading-relaxed">
+          Legacy landfills represent a major environmental hazard in Indian cities, polluting groundwater, releasing greenhouse gases, and causing frequent fires. Biomining offers a scientific approach to clear these dumpsites by separating waste into soil, recyclables, and combustible materials.
+        </p>
+        <h3 className="text-lg font-bold text-primary">The Biomining Process</h3>
+        <p className="text-muted-foreground leading-relaxed">
+          The process involves stabilizing the waste dump using bio-inoculants to reduce odor and heat, followed by mechanical screening using trommels to segregate materials like Refuse Derived Fuel (RDF), compost, inert soil, and recyclables.
+        </p>
+        <h3 className="text-lg font-bold text-primary">Key Benefits of Landfill Reclamation</h3>
+        <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+          <li><strong>Urban Land Recovery:</strong> Reclaims highly valuable public land for green spaces or commercial use.</li>
+          <li><strong>Resource Recovery:</strong> Extracts plastics and paper that can be processed into RDF or recycled.</li>
+          <li><strong>Environmental Protection:</strong> Stops leachate contamination of soil and local water bodies.</li>
+        </ul>
+      </div>
+    )
   },
   {
     id: 4,
@@ -48,6 +102,19 @@ const posts = [
     color: 'from-green-500 to-emerald-500',
     icon: '📋',
     image: 'https://media.gettyimages.com/id/1774039020/photo/female-worker-checks-the-stock-and-controls-the-separation-of-recyclable-waste-of-the-plastic.jpg?b=1&s=2048x2048&w=0&k=20&c=PQegK9GBPYtsx-uxv0cSFSEQ9EVxeRWcaHdMHxgXuKw=',
+    content: (
+      <div className="space-y-6">
+        <p className="text-muted-foreground leading-relaxed">
+          A waste audit is a physical analysis of your waste stream, measuring the types and quantities of waste generated by your operations. Many companies treat waste as a fixed utility cost, but a systematic waste audit routinely reveals inefficiencies that can reduce total operational waste costs by up to 30%.
+        </p>
+        <h3 className="text-lg font-bold text-primary">Key Steps in a Corporate Waste Audit</h3>
+        <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+          <li><strong>Mapping Inflow & Outflow:</strong> Track all packaging and materials entering the facility and identify where they exit.</li>
+          <li><strong>Waste Characterization:</strong> Physically sort and weigh waste categories over a representative period.</li>
+          <li><strong>Optimization Strategy:</strong> Identify packaging reduction opportunities, organic waste composting, and recycling partners.</li>
+        </ul>
+      </div>
+    )
   },
   {
     id: 5,
@@ -59,6 +126,17 @@ const posts = [
     color: 'from-purple-500 to-pink-500',
     icon: '📢',
     image: 'https://media.gettyimages.com/id/2239437958/photo/recycling-smiling-man-holding-plastic-box-with-different-waste-paper-on-pink-background.jpg?b=1&s=2048x2048&w=0&k=20&c=vcQwJGY1ZqbTloAOGgD_sM-jpNkoT8yocAarKLvxgp0=',
+    content: (
+      <div className="space-y-6">
+        <p className="text-muted-foreground leading-relaxed">
+          Information, Education, and Communication (IEC) campaigns are crucial to municipal waste management because segregation at source relies on individual behavior. Simply placing bins is not enough; citizens must be actively educated and motivated to change their habits.
+        </p>
+        <h3 className="text-lg font-bold text-primary">Designing Effective Campaigns</h3>
+        <p className="text-muted-foreground leading-relaxed">
+          Successful campaigns utilize localized messaging, hands-on workshops, street plays (Nukkad Natak), and schools to build community awareness. Incentivizing compliance and implementing feedback loops (like green ratings for neighborhoods) significantly increases participation.
+        </p>
+      </div>
+    )
   },
   {
     id: 6,
@@ -70,12 +148,30 @@ const posts = [
     color: 'from-yellow-500 to-orange-500',
     icon: '👥',
     image: 'https://media.gettyimages.com/id/2228593367/photo/workers-at-waste-management-facility.jpg?b=1&s=2048x2048&w=0&k=20&c=kJuG97fo7EM8PRAHLPSJk_zThtYJ2sEXuHMT4xyfC38=',
+    content: (
+      <div className="space-y-6">
+        <p className="text-muted-foreground leading-relaxed">
+          India's informal waste sector (ragpickers, kabadiwalas, and small waste traders) forms the backbone of recycling in the country. They handle high-volume sorting and collection that formal municipal systems are often not equipped to manage.
+        </p>
+        <h3 className="text-lg font-bold text-primary">Why Social Integration is Essential</h3>
+        <p className="text-muted-foreground leading-relaxed">
+          Integrating informal workers into formal municipal systems improves their working conditions, health outcomes, and incomes. Under the Collector Development Centre framework, formalizing these collectors increases their efficiency and creates high-quality, traceable supply chains for recycled plastics.
+        </p>
+      </div>
+    )
   },
 ];
 
 const categories = ['All', 'EPR Compliance', 'ESG Consulting', 'Biomining', 'Waste Audit', 'IEC Campaigns', 'Social Impact'];
 
 export default function BlogPage() {
+  const [selectedPost, setSelectedPost] = useState<typeof posts[0] | null>(null);
+  const [activeCategory, setActiveCategory] = useState('All');
+
+  const filteredPosts = activeCategory === 'All'
+    ? posts
+    : posts.filter(post => post.category === activeCategory);
+
   return (
     <>
       <title>Blog — BlueDots Environmental Solutions</title>
@@ -108,47 +204,49 @@ export default function BlogPage() {
       {/* Featured post */}
       <section className="py-16 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="group bg-card rounded-3xl border border-border shadow-sm hover:shadow-xl transition-all overflow-hidden mb-12"
-          >
-            <div className="grid grid-cols-1 lg:grid-cols-2">
-              {/* Featured image */}
-              <div className="relative min-h-64 overflow-hidden">
-                <img
-                  src={posts[0].image}
-                  alt={posts[0].title}
-                  className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <div className={`absolute inset-0 bg-gradient-to-br ${posts[0].color} opacity-50`} />
-                <div className="absolute inset-0 bg-black/20" />
-                <div className="absolute top-4 left-4">
-                  <span className="px-3 py-1 rounded-full bg-white/20 backdrop-blur-sm text-white text-xs font-medium">Featured</span>
+          {activeCategory === 'All' && (
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="group bg-card rounded-3xl border border-border shadow-sm hover:shadow-xl transition-all overflow-hidden mb-12"
+            >
+              <div className="grid grid-cols-1 lg:grid-cols-2">
+                {/* Featured image */}
+                <div className="relative min-h-64 overflow-hidden">
+                  <img
+                    src={posts[0].image}
+                    alt={posts[0].title}
+                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className={`absolute inset-0 bg-gradient-to-br ${posts[0].color} opacity-50`} />
+                  <div className="absolute inset-0 bg-black/20" />
+                  <div className="absolute top-4 left-4">
+                    <span className="px-3 py-1 rounded-full bg-white/20 backdrop-blur-sm text-white text-xs font-medium">Featured</span>
+                  </div>
+                  <div className="absolute bottom-4 left-4">
+                    <span className="text-4xl">{posts[0].icon}</span>
+                  </div>
                 </div>
-                <div className="absolute bottom-4 left-4">
-                  <span className="text-4xl">{posts[0].icon}</span>
+                <div className="p-8 lg:p-12 flex flex-col justify-center">
+                  <div className="flex items-center gap-3 mb-4">
+                    <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium">{posts[0].category}</span>
+                    <span className="text-muted-foreground text-xs flex items-center gap-1"><Clock className="w-3 h-3" />{posts[0].readTime}</span>
+                  </div>
+                  <h2 className="font-heading text-2xl sm:text-3xl font-bold text-primary mb-4 leading-snug group-hover:text-secondary transition-colors">
+                    {posts[0].title}
+                  </h2>
+                  <p className="text-muted-foreground leading-relaxed mb-6">{posts[0].excerpt}</p>
+                  <div className="flex items-center justify-between">
+                    <span className="text-muted-foreground text-sm">{posts[0].date}</span>
+                    <Button onClick={() => setSelectedPost(posts[0])} className="gradient-blue-green text-white border-0 cursor-pointer">
+                      Read Article <ArrowRight className="ml-2 w-4 h-4" />
+                    </Button>
+                  </div>
                 </div>
               </div>
-              <div className="p-8 lg:p-12 flex flex-col justify-center">
-                <div className="flex items-center gap-3 mb-4">
-                  <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium">{posts[0].category}</span>
-                  <span className="text-muted-foreground text-xs flex items-center gap-1"><Clock className="w-3 h-3" />{posts[0].readTime}</span>
-                </div>
-                <h2 className="font-heading text-2xl sm:text-3xl font-bold text-primary mb-4 leading-snug group-hover:text-secondary transition-colors">
-                  {posts[0].title}
-                </h2>
-                <p className="text-muted-foreground leading-relaxed mb-6">{posts[0].excerpt}</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-muted-foreground text-sm">{posts[0].date}</span>
-                  <Button asChild className="gradient-blue-green text-white border-0">
-                    <Link to="#">Read Article <ArrowRight className="ml-2 w-4 h-4" /></Link>
-                  </Button>
-                </div>
-              </div>
-            </div>
-          </motion.div>
+            </motion.div>
+          )}
 
           {/* Category filter */}
           <div className="flex items-center gap-3 overflow-x-auto scrollbar-hide pb-2 mb-10">
@@ -156,7 +254,12 @@ export default function BlogPage() {
             {categories.map(cat => (
               <button
                 key={cat}
-                className="px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-all bg-muted text-muted-foreground hover:bg-primary/10 hover:text-primary first:bg-primary first:text-white"
+                onClick={() => setActiveCategory(cat)}
+                className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-all ${
+                  activeCategory === cat
+                    ? 'bg-primary text-white shadow-sm'
+                    : 'bg-muted text-muted-foreground hover:bg-primary/10 hover:text-primary'
+                }`}
               >
                 {cat}
               </button>
@@ -165,7 +268,7 @@ export default function BlogPage() {
 
           {/* Posts grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {posts.slice(1).map((post, i) => (
+            {(activeCategory === 'All' ? posts.slice(1) : filteredPosts).map((post, i) => (
               <motion.div
                 key={post.id}
                 initial={{ opacity: 0, y: 30 }}
@@ -173,7 +276,8 @@ export default function BlogPage() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.07 }}
                 whileHover={{ y: -6 }}
-                className="group rounded-2xl border border-border shadow-sm hover:shadow-xl transition-all overflow-hidden"
+                className="group rounded-2xl border border-border shadow-sm hover:shadow-xl transition-all overflow-hidden cursor-pointer"
+                onClick={() => setSelectedPost(post)}
               >
                 {/* Background image top half */}
                 <div className="relative h-44 overflow-hidden">
@@ -200,9 +304,9 @@ export default function BlogPage() {
                   <p className="text-muted-foreground text-sm leading-relaxed mb-4 line-clamp-3">{post.excerpt}</p>
                   <div className="flex items-center justify-between">
                     <span className="text-muted-foreground text-xs">{post.date}</span>
-                    <Link to="#" className="text-primary text-sm font-medium hover:text-secondary flex items-center gap-1 transition-colors">
+                    <button className="text-primary text-sm font-medium hover:text-secondary flex items-center gap-1 transition-colors cursor-pointer">
                       Read <ArrowRight className="w-3 h-3" />
-                    </Link>
+                    </button>
                   </div>
                 </div>
               </motion.div>
@@ -210,6 +314,68 @@ export default function BlogPage() {
           </div>
         </div>
       </section>
+
+      {/* Modal / Reader */}
+      <AnimatePresence>
+        {selectedPost && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+            {/* Backdrop */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setSelectedPost(null)}
+              className="absolute inset-0 bg-black/50 backdrop-blur-sm"
+            />
+            {/* Modal Content */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.95, y: 20 }}
+              className="relative w-full max-w-3xl max-h-[85vh] overflow-y-auto bg-card border border-border rounded-3xl shadow-2xl flex flex-col z-10"
+            >
+              {/* Close Button */}
+              <button
+                onClick={() => setSelectedPost(null)}
+                className="absolute top-4 right-4 z-20 w-10 h-10 rounded-full bg-background/80 hover:bg-background border border-border flex items-center justify-center text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <X className="w-5 h-5" />
+              </button>
+
+              {/* Cover Image */}
+              <div className="relative h-48 sm:h-64 shrink-0">
+                <img
+                  src={selectedPost.image}
+                  alt={selectedPost.title}
+                  className="w-full h-full object-cover"
+                />
+                <div className={`absolute inset-0 bg-gradient-to-br ${selectedPost.color} opacity-40`} />
+                <div className="absolute inset-0 bg-gradient-to-t from-card via-card/10 to-transparent" />
+                <div className="absolute bottom-6 left-6 right-6">
+                  <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold mb-3 inline-block">
+                    {selectedPost.category}
+                  </span>
+                  <h2 className="font-heading text-xl sm:text-2xl lg:text-3xl font-bold text-foreground leading-tight">
+                    {selectedPost.title}
+                  </h2>
+                </div>
+              </div>
+
+              {/* Body */}
+              <div className="p-6 sm:p-8 space-y-6">
+                <div className="flex items-center gap-4 text-xs text-muted-foreground border-b border-border pb-4">
+                  <span>Published on <strong>{selectedPost.date}</strong></span>
+                  <span>•</span>
+                  <span className="flex items-center gap-1"><Clock className="w-3 h-3" />{selectedPost.readTime}</span>
+                </div>
+                <div className="prose max-w-none text-foreground/90 leading-relaxed">
+                  {selectedPost.content}
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
 
       {/* Newsletter CTA */}
       <section className="py-16 bg-muted/50">
